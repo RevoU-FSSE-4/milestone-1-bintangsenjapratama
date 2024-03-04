@@ -3,9 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 1em;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-li { list-style: none; }
+li {
+  list-style: none;
+  font-weight: 800;
+}
 
 .flex-container {
   display: flex;
@@ -24,22 +30,38 @@ li { list-style: none; }
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1em;
+  gap: 3em;
+  font-size: 1.5em;
 }
 
 .box-header {
-  background: rgb(69, 183, 164);
+  /* background: rgba(230, 230, 230, 0.8); */
   padding: 1em;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  color: rgb(226, 226, 226);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .box-welcome {
-  background: rgb(69, 88, 183);
   padding: 1em;
+  background-image: url("../images/godzilla-cover.jpg");
+  height: 60em;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box-service {
   background: rgb(183, 82, 69);
   padding: 1em;
+  height: 20em;
 }
 
 .box-blog {
@@ -53,19 +75,28 @@ li { list-style: none; }
 }
 
 .box-footer {
-  background: rgb(69, 183, 164);
+  background: rgb(230, 230, 230);
   padding: 1em;
-  grid-template-areas: "Logo Info Help";
+  justify-content: center;
+  gap: 1em;
 }
 
-.footer-logo {
-  grid-area: Logo;
+.box-footer > p {
+  font-weight: 700;
 }
 
-.footer-info {
-  grid-area: Info;
+/* Based on Iphone 14 Pro Max */
+@media only screen and (max-width: 768px) {
+  .box-welcome {
+    height: 65em;
+    background-position: 20%;
+  }
 }
 
-.footer-help {
-  grid-area: Help;
+/* Based on Ipad Mini */
+@media only screen and (max-width: 430px) {
+  .box-welcome {
+    height: 55em;
+    background-position: 30%;
+  }
 }
