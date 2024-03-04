@@ -2,10 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1em;
 }
+
+li { list-style: none; }
 
 .flex-container {
   display: flex;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.navbar {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
 }
 
 .box-header {
@@ -36,4 +55,17 @@
 .box-footer {
   background: rgb(69, 183, 164);
   padding: 1em;
+  grid-template-areas: "Logo Info Help";
+}
+
+.footer-logo {
+  grid-area: Logo;
+}
+
+.footer-info {
+  grid-area: Info;
+}
+
+.footer-help {
+  grid-area: Help;
 }
