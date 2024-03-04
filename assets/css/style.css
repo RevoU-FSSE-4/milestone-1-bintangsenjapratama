@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  background: rgb(69, 88, 183);
+  padding: 1em;
+}
+
+.box2 {
+  background: rgb(183, 82, 69);
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+}
