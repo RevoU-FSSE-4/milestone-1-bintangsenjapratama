@@ -4,16 +4,36 @@
   box-sizing: border-box;
 }
 
-.box1 {
+.flex-container {
+  display: flex;
+}
+
+.box-header {
+  background: rgb(69, 183, 164);
+  padding: 1em;
+}
+
+.box-welcome {
   background: rgb(69, 88, 183);
   padding: 1em;
 }
 
-.box2 {
+.box-service {
   background: rgb(183, 82, 69);
   padding: 1em;
 }
 
-.container {
-  display: flex;
+.box-blog {
+  background: rgb(69, 88, 183);
+  padding: 1em;
+}
+
+.box-testimoni {
+  background: rgb(183, 82, 69);
+  padding: 1em;
+}
+
+.box-footer {
+  background: rgb(69, 183, 164);
+  padding: 1em;
 }
