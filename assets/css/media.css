@@ -1,8 +1,8 @@
 /* --------------- Media Query Section --------------- */
 /* Based on Desktop */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1920px) {
   .box-top {
-    height: 78em;
+    height: 70em;
     background-position: 20%;
   }
 
@@ -38,7 +38,7 @@
   }
 }
 
-/* Based on Iphone 14 Pro Max */
+/* Based on Ipad Mini */
 @media only screen and (max-width: 780px) {
   .box-top {
     height: 65em;
@@ -77,10 +77,10 @@
   }
 }
 
-/* Based on Ipad Mini */
+/* Based on Iphone 14 Pro Max */
 @media only screen and (max-width: 525px) {
   .box-top {
-    height: 55em;
+    height: 60em;
     background-position: 30%;
   }
 

@@ -38,7 +38,7 @@ a:hover {
 .box-top {
   /* padding: 1em; */
   background-image: url("../images/godzilla-cover.jpg");
-  height: 76em;
+  height: 83em;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@ a:hover {
 .box-header {
   padding-left: 10%;
   padding-right: 10%;
-  height: 15%;
+  height: 20%;
   justify-content: space-between;
   align-items: center;
   /* background-color: rgba(49, 49, 49, 0.35); */
@@ -88,7 +88,7 @@ a:hover {
   padding-top: 10%;
   align-items: center;
   justify-content: flex-start;
-  height: 85%;
+  height: 80%;
 }
 
 .main-heading > div {
