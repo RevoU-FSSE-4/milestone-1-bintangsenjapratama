@@ -106,9 +106,9 @@ li {
   grid-area: button;
   width: 15%;
   color: black;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
-  height: 3em;
+  height: 2em;
   border-radius: 0.5em;
   border-color: rgba(0, 0, 0, 0);
 }
@@ -126,18 +126,18 @@ p {
 .btn {
 }
 
-.box-service {
+.box-films {
   background: rgb(183, 82, 69);
   padding: 1em;
   height: 20em;
 }
 
-.box-blog {
+.box-services {
   background: rgb(69, 88, 183);
   padding: 1em;
 }
 
-.box-testimoni {
+.box-about {
   background: rgb(183, 82, 69);
   padding: 1em;
 }
