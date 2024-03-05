@@ -73,6 +73,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(49, 49, 49, 0.35);
+  backdrop-filter: blur(5px);
 }
 
 .sticky {
