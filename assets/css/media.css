@@ -1,0 +1,91 @@
+/* --------------- Media Query Section --------------- */
+/* Based on Desktop */
+@media only screen and (max-width: 1300px) {
+  .box-top {
+    height: 78em;
+    background-position: 20%;
+  }
+
+  .navbar > ul {
+    gap: 2em;
+    font-size: 1.45em;
+  }
+
+  .navbar-logo {
+    height: 4em;
+  }
+
+  .main-heading > div {
+    width: 90%;
+  }
+
+  .main-grid-item2 {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
+
+/* Based on Iphone 14 Pro Max */
+@media only screen and (max-width: 780px) {
+  .box-top {
+    height: 65em;
+    background-position: 20%;
+  }
+
+  .navbar > ul {
+    gap: 1em;
+    font-size: 1.3em;
+  }
+
+  .navbar-logo {
+    height: 3em;
+  }
+
+  .main-heading > div {
+    width: 80%;
+  }
+
+  .main-grid-item2 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+}
+
+/* Based on Ipad Mini */
+@media only screen and (max-width: 525px) {
+  .box-top {
+    height: 55em;
+    background-position: 30%;
+  }
+
+  .navbar > ul {
+    gap: 0.8em;
+    font-size: 1.2em;
+  }
+
+  .main-heading > div {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.5em;
+  }
+}
