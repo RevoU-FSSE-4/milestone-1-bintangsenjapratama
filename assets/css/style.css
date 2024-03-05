@@ -69,10 +69,10 @@ a:hover {
 .box-header {
   padding-left: 10%;
   padding-right: 10%;
-  height: 20%;
+  height: 10%;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgba(49, 49, 49, 0.35); */
+  background-color: rgba(49, 49, 49, 0.35);
 }
 
 .sticky {
@@ -88,7 +88,7 @@ a:hover {
   padding-top: 10%;
   align-items: center;
   justify-content: flex-start;
-  height: 80%;
+  height: 90%;
 }
 
 .main-heading > div {
@@ -107,6 +107,9 @@ a:hover {
   grid-area: heading1;
 }
 
+.red-icon {
+  color: red;
+}
 .main-grid-item2 {
   grid-area: paragraph1;
   width: 75%;
