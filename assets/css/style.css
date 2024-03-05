@@ -14,6 +14,12 @@ li {
   font-size: 0.7em;
   filter: drop-shadow(0.12em 0.12em 0.12em rgb(0 0 0 /0.4));
   font-weight: 700;
+
+  transition: color 0.1s ease-in;
+}
+
+li:hover {
+  color: rgb(207, 85, 69);
 }
 
 .flex-container {
@@ -124,6 +130,15 @@ p {
 }
 
 .btn {
+  background-color: rgb(226, 226, 226);
+  color: black;
+
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
+}
+
+.btn:hover {
+  background-color: rgb(207, 85, 69);
+  color: white;
 }
 
 .box-films {
