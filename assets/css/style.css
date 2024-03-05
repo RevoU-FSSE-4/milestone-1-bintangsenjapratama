@@ -11,6 +11,8 @@
 
 li {
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -52,6 +54,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 3em;
   font-size: 1.5em;
 }
@@ -151,9 +154,51 @@ p {
 }
 
 .box-films {
-  background: rgb(183, 82, 69);
-  padding: 1em;
-  height: 20em;
+  background: rgb(69, 69, 68);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: 50em;
+}
+
+.film-grid {
+  grid-template-areas:
+    "heading2 heading2"
+    "film1 film2"
+    "film1 film2"
+    "film1 film2"
+    "film3 film4"
+    "film3 film4"
+    "film3 film4";
+  gap: 2em;
+}
+
+.film-grid-heading2 {
+  grid-area: heading2;
+  justify-content: center;
+  align-items: center;
+}
+
+.film-grid-item-layout {
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1em;
+}
+.film-grid-item1 {
+  grid-area: film1;
+}
+
+.film-grid-item2 {
+  grid-area: film2;
+}
+
+.film-grid-item3 {
+  grid-area: film3;
+}
+
+.film-grid-item4 {
+  grid-area: film4;
 }
 
 .box-services {
