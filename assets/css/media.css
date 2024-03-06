@@ -119,3 +119,38 @@
     height: 1.8em;
   }
 }
+
+/* Based on Iphone SE*/
+@media only screen and (max-width: 390px) {
+  .box-top {
+    height: 50em;
+    background-position: 30%;
+  }
+
+  .navbar > ul {
+    gap: 0.3em;
+    font-size: 1em;
+  }
+
+  .main-heading > div {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1.05em;
+  }
+
+  p {
+    font-size: 0.6em;
+  }
+
+  .main-grid-item3 {
+    width: 30%;
+    font-size: 0.8em;
+    height: 1.6em;
+  }
+}
