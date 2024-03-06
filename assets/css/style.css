@@ -154,12 +154,14 @@ p {
 }
 
 .box-films {
-  background: rgb(69, 69, 68);
+  background: rgb(27, 27, 27);
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2%;
   padding-bottom: 2%;
-  height: 50em;
+  /* height: 50em; */
+  border-top: 0.1em solid rgb(77, 77, 77);
+  border-bottom: 0.1em solid rgb(77, 77, 77);
 }
 
 .film-grid {
@@ -172,6 +174,47 @@ p {
     "film3 film4"
     "film3 film4";
   gap: 2em;
+}
+
+.box-films-heading {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.box-films-content {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 90%;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+.card {
+  width: 20em;
+  height: 30em;
+}
+.img-card {
+  justify-content: center;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 0.3em;
+  filter: grayscale(30%);
+
+  transition: filter 0.3s ease-in, transform 0.5s ease;
+}
+
+.img-card:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 .film-grid-heading2 {
