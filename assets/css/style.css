@@ -9,6 +9,10 @@
   color: rgb(226, 226, 226);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
   justify-content: center;
