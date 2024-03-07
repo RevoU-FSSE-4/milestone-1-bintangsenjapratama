@@ -353,10 +353,11 @@ h2 {
 }
 
 .box-footer {
-  background: rgb(32, 32, 32);
+  background: rgb(51, 51, 51);
   padding: 1em;
   justify-content: center;
   gap: 1em;
+  border-top: 0.1em solid rgb(80, 80, 80);
 }
 
 .box-footer > p {
