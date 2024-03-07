@@ -9,9 +9,9 @@
   color: rgb(226, 226, 226);
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 li {
   list-style: none;
