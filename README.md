@@ -41,6 +41,20 @@ Visit the site here https://godzillaz.shop/
 - Person Generation ( https://this-person-does-not-exist.com/en )
 - Favicon Converter ( https://favicon.io/favicon-converter/ )
 
+## Design Choices
+
+- **Simple**
+  - Blur filter use for easy read on the navbar
+  - Monochrome background
+- **Professional**
+  - Proper alignment on each section
+  - Full main page section for each devices width variation
+- **Smooth**
+  - Implementing smooth transition on images
+  - Implementing smooth scroll when navigation clicked
+- **Responsive**
+  - Website was design with several media settings to handle some major device resolution
+
 ## Quick Start to Setup
 
 1. Clone the repo:
