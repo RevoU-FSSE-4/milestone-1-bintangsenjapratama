@@ -6,6 +6,8 @@ Welcome to GodzillaZ Studio Web Repository!
 
 This website repository showcases the movie production house that is focusing on creating Godzilla movies.
 
+Visit the site here https://godzillaz.shop/
+
 ![Godzilla Start](https://img.shields.io/badge/godzillaz_studios-running-orange)
 ![Scroll Mode](https://img.shields.io/badge/scroll_mode-smooth-blue)
 ![Responsive Percentage](https://img.shields.io/badge/responsive-100%25-green)
