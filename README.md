@@ -14,7 +14,7 @@ Visit the site here https://godzillaz.shop/
 
 ## Repo Structures
 
-- assets folder
+- assets
   - css
   - images
 - readme-images
